@@ -1,0 +1,61 @@
+body{
+    background:linear-gradient(to bottom, rgb(226, 204, 7),rgb(6, 87, 236));
+}
+
+.nav{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background-color: cyan;
+    width: 120px;
+    font-weight: lighter;
+    font-style: oblique;
+
+}
+.cuadrado {
+   position: absolute;
+   left: 800px;
+   right: 10px;
+   top: 15px;
+   bottom: 5px;
+   width: 100px;
+   height: 100px;
+   background: orange;
+
+}
+
+
+.rombo {
+   position: relative;
+   left: 900px;
+   right: 5px;
+   top: 5px;
+   bottom: 5px;
+   width: 100px;
+   height:100px;
+   background: pink;
+   -webkit-transform: rotate(45deg);
+   -moz-transform: rotate(45deg);
+   -ms-transform: rotate(45deg);
+   -moz-transform: rotate(45deg);
+   transform: rotate(45deg);
+}
+
+
+.triangulo {
+    width:80px ;
+    height: 39px;
+   background-color: aqua;
+    border-radius:75% ;
+    position: relative;
+    top: 75%;
+    left: 55%;
+    right: 40%;
+}
+
+summary {
+    font-size: 30px;
+    color: coral;
+    font-family: 'Times New Roman', Times, serif;
+}
+
